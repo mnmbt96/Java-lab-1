@@ -6,6 +6,9 @@ public class Reptile extends Animal{
     private boolean backBone;
     private String softShelledEggs;
 
+		//Dafault
+		public Reptile(){}
+
     public Reptile(int height, int weight, String animalType, String bloodType, boolean drySkin, boolean backBone, String softShelledEggs){
         super(height, weight, animalType, bloodType);
         this.drySkin = drySkin;
