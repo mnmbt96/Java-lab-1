@@ -6,9 +6,9 @@ import Reptile.Crocodile;
 
 public class App {
   public static void main(String[] args) throws Exception {
-    Crocodile Crocodile = new Crocodile(200,100,"Reptile", "A", true, true, "Hard-shelled eggs");
+    Crocodile Crocodile = new Crocodile(2,100,"Reptile", "A", true, true, "Hard-shelled eggs");
     Eel Eel = new Eel(1,1,"Fish", "A",true, true, false);
-    Eagle Eagle = new Eagle(2,5,"Bird", "A",true,true,true);
+    Eagle Eagle = new Eagle(2,20,"Bird", "A",true,true,true);
     
     
 System.out.println("=== Crocodile ===");

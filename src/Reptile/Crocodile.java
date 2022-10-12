@@ -2,6 +2,9 @@ package Reptile;
 
 public class Crocodile extends Reptile{
 
+  //Default
+  public Crocodile(){}
+
   public Crocodile(int height, int weight, String animalType, String bloodType, boolean drySkin, boolean backBone, String softShelledEggs) {
     super(height,weight,animalType,bloodType,drySkin, backBone, softShelledEggs);
   }

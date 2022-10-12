@@ -6,6 +6,9 @@ public class Birds extends Animal{
   private boolean feathers;
   private boolean canFly;
 
+	//Default
+	public Birds(){}
+
   public Birds(int height, int weight, String animalType, String bloodType, boolean feathers, boolean canFly){
     super(height,weight,animalType,bloodType);
     this.feathers = feathers;

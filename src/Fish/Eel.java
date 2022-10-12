@@ -2,6 +2,10 @@ package Fish;
 
 public class Eel extends Fish {
   private boolean releaseElectricCharge;
+
+  //Default
+  public Eel(){}
+
   public Eel(int height, int weight, String animalType, String bloodType, boolean liveInWater, boolean hasGills,boolean releaseElectricCharge) {
     super(height, weight, animalType, bloodType, liveInWater, hasGills);
   }
