@@ -1,1 +1,1 @@
-Class assignment for understanding of inheritance 
+Class assignment for understanding inheritance 
